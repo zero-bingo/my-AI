@@ -1,0 +1,33 @@
+{
+  "name": "figma-to-html-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server for converting Figma designs to HTML",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/server.ts",
+    "dev": "tsx src/server.ts",
+    "watch": "tsx --watch src/server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "figma",
+    "html",
+    "converter",
+    "design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
